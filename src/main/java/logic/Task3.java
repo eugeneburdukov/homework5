@@ -21,6 +21,11 @@ public class Task3 {
         students.add(new Student("Peter", "Andropov", "3111a", 101,
                 89, 65));
 
+        System.out.println("Before adding OverallRating: ");
+        for (Student e: students) {
+            System.out.println(e);
+        }
+
         for (int i = 0; i < students.size(); i++) {
             students.get(i).setOverallRating(students.get(i).getPhysicsRating() * 1
                     + students.get(i).getChemistryRating() * 1 + students.get(i).getEnglishRating() * 1);

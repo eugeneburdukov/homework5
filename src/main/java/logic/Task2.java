@@ -13,5 +13,17 @@ public class Task2 {
         System.out.println(arrayList1);
         System.out.println(arrayList2);
 
+        for (Integer e:
+             arrayList1) {
+            System.out.print(e + " ");
+        }
+
+        System.out.println();
+
+        for (String e:
+             arrayList2) {
+            System.out.print(e + " ");
+        }
+
     }
 }

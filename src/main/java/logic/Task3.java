@@ -13,7 +13,6 @@ public class Task3 {
 
     public static void main(String[] args) {
         List<Student> students = new ArrayList<>();
-        double newRating;
 
         students.add(new Student("Eugene", "Parkhomov", "1521a", 100,
                 81, 91));

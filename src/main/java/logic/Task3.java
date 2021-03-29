@@ -27,8 +27,7 @@ public class Task3 {
         }
 
         System.out.println("Before sort: ");
-        for (Student e:
-             students) {
+        for (Student e: students) {
             System.out.println(e);
         }
 

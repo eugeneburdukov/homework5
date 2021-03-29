@@ -22,7 +22,8 @@ public class Task3 {
                 89, 65));
 
         for (int i = 0; i < students.size(); i++) {
-            students.get(i).setOverallRating(students.get(i).getPhysicsRating() + students.get(i).getChemistryRating() + students.get(i).getEnglishRating());
+            students.get(i).setOverallRating(students.get(i).getPhysicsRating() * 1
+                    + students.get(i).getChemistryRating() * 1 + students.get(i).getEnglishRating() * 1);
         }
 
         System.out.println("Before sort: ");
